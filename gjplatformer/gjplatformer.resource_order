@@ -27,7 +27,6 @@
     {"name":"obj_checkpoint","order":4,"path":"objects/obj_checkpoint/obj_checkpoint.yy",},
     {"name":"obj_player","order":10,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_deathpit","order":5,"path":"objects/obj_deathpit/obj_deathpit.yy",},
-    {"name":"obj_bad_1","order":6,"path":"objects/obj_bad_1/obj_bad_1.yy",},
     {"name":"spr_invispath","order":8,"path":"sprites/spr_invispath/spr_invispath.yy",},
     {"name":"obj_init","order":7,"path":"objects/obj_init/obj_init.yy",},
     {"name":"obj_cameraheightchange","order":3,"path":"objects/obj_cameraheightchange/obj_cameraheightchange.yy",},
