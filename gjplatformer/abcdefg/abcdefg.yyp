@@ -68,11 +68,9 @@
     {"id":{"name":"spr_bg_processes","path":"sprites/spr_bg_processes/spr_bg_processes.yy",},},
     {"id":{"name":"spr_deathpit","path":"sprites/spr_deathpit/spr_deathpit.yy",},},
     {"id":{"name":"obj_deathpit","path":"objects/obj_deathpit/obj_deathpit.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"roomId":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
     {"roomId":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
