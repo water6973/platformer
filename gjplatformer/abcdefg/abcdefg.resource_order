@@ -34,6 +34,7 @@
     {"name":"spr_spike","order":23,"path":"sprites/spr_spike/spr_spike.yy",},
     {"name":"obj_bgprocesses","order":10,"path":"objects/obj_bgprocesses/obj_bgprocesses.yy",},
     {"name":"obj_spike","order":12,"path":"objects/obj_spike/obj_spike.yy",},
+    {"name":"rm_level2","order":5,"path":"rooms/rm_level2/rm_level2.yy",},
     {"name":"rm_test","order":2,"path":"rooms/rm_test/rm_test.yy",},
     {"name":"spr_platforms","order":21,"path":"sprites/spr_platforms/spr_platforms.yy",},
     {"name":"spr_screentransition","order":9,"path":"sprites/spr_screentransition/spr_screentransition.yy",},
