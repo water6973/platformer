@@ -61,4 +61,7 @@ y+=yspd;
 
 #endregion
 
-if keyboard_check_pressed(ord("R")){room_restart()}
+if keyboard_check_pressed(ord("R")){
+obj_player.x=global.checkpt[0];
+obj_player.y=global.checkpt[1];
+}
