@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_deathpit",
+  "name": "obj_spike",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_deathpit",
-    "path": "sprites/spr_deathpit/spr_deathpit.yy",
+    "name": "spr_spike",
+    "path": "sprites/spr_spike/spr_spike.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
