@@ -1,8 +1,0 @@
-{
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"Sound3","order":2,"path":"sounds/Sound3/Sound3.yy",},
-    {"name":"Sound2","order":1,"path":"sounds/Sound2/Sound2.yy",},
-    {"name":"Sound4","order":3,"path":"sounds/Sound4/Sound4.yy",},
-  ],
-}
