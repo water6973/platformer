@@ -1,4 +1,10 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_spike","order":1,"path":"objects/obj_spike/obj_spike.yy",},
+    {"name":"spr_spike","order":1,"path":"sprites/spr_spike/spr_spike.yy",},
+    {"name":"Sound2","order":1,"path":"sounds/Sound2/Sound2.yy",},
+    {"name":"Sound3","order":2,"path":"sounds/Sound3/Sound3.yy",},
+    {"name":"Sound4","order":3,"path":"sounds/Sound4/Sound4.yy",},
+  ],
 }
