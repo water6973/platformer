@@ -55,6 +55,7 @@
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
     {"id":{"name":"obj_bad","path":"objects/obj_bad/obj_bad.yy",},},
     {"id":{"name":"tile_platforms","path":"tilesets/tile_platforms/tile_platforms.yy",},},
+    {"id":{"name":"rm_tech","path":"rooms/rm_tech/rm_tech.yy",},},
     {"id":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"spr_platforms","path":"sprites/spr_platforms/spr_platforms.yy",},},
@@ -73,6 +74,7 @@
     {"roomId":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"roomId":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
     {"roomId":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
+    {"roomId":{"name":"rm_tech","path":"rooms/rm_tech/rm_tech.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
