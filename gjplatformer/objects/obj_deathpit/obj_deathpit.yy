@@ -33,5 +33,5 @@
     "path": "sprites/spr_deathpit/spr_deathpit.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
