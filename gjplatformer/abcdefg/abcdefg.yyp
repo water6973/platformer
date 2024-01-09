@@ -32,7 +32,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_bad","path":"sprites/spr_bad/spr_bad.yy",},},
@@ -42,7 +42,6 @@
     {"id":{"name":"spr_cameraheightchange","path":"sprites/spr_cameraheightchange/spr_cameraheightchange.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
-    {"id":{"name":"sdfghghf","path":"sprites/sdfghghf/sdfghghf.yy",},},
     {"id":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"id":{"name":"obj_platforms","path":"objects/obj_platforms/obj_platforms.yy",},},
     {"id":{"name":"obj_screentransition","path":"objects/obj_screentransition/obj_screentransition.yy",},},

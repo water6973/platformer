@@ -23,7 +23,6 @@
     {"name":"rm_template","order":1,"path":"rooms/rm_template/rm_template.yy",},
     {"name":"spr_cameraheightchange","order":1,"path":"sprites/spr_cameraheightchange/spr_cameraheightchange.yy",},
     {"name":"spr_platform","order":7,"path":"sprites/spr_platform/spr_platform.yy",},
-    {"name":"sdfghghf","order":22,"path":"sprites/sdfghghf/sdfghghf.yy",},
     {"name":"rm_tutorial_1","order":1,"path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},
     {"name":"obj_platforms","order":7,"path":"objects/obj_platforms/obj_platforms.yy",},
     {"name":"obj_screentransition","order":9,"path":"objects/obj_screentransition/obj_screentransition.yy",},
