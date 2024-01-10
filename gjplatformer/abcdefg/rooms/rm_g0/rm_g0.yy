@@ -26,6 +26,7 @@
     {"name":"inst_5B99C89F","path":"rooms/rm_g0/rm_g0.yy",},
     {"name":"inst_7064FFF0","path":"rooms/rm_g0/rm_g0.yy",},
     {"name":"inst_3CE044","path":"rooms/rm_g0/rm_g0.yy",},
+    {"name":"inst_3CE044","path":"rooms/rm_g0/rm_g0.yy",},
   ],
   "isDnd": false,
   "layers": [
