@@ -49,6 +49,7 @@
     {"id":{"name":"Sound4","path":"sounds/Sound4/Sound4.yy",},},
     {"id":{"name":"obj_platforms","path":"objects/obj_platforms/obj_platforms.yy",},},
     {"id":{"name":"obj_screentransition","path":"objects/obj_screentransition/obj_screentransition.yy",},},
+    {"id":{"name":"spr_flag","path":"sprites/spr_flag/spr_flag.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_invispath","path":"sprites/spr_invispath/spr_invispath.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
