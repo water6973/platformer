@@ -29,6 +29,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Crazy Levels","folderPath":"folders/Rooms/Crazy Levels.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -69,6 +70,7 @@
     {"id":{"name":"Sound3","path":"sounds/Sound3/Sound3.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},},
+    {"id":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
     {"id":{"name":"tile_platforms","path":"tilesets/tile_platforms/tile_platforms.yy",},},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
     {"id":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
@@ -99,6 +101,7 @@
     {"roomId":{"name":"rm_g0","path":"rooms/rm_g0/rm_g0.yy",},},
     {"roomId":{"name":"rm_g1","path":"rooms/rm_g1/rm_g1.yy",},},
     {"roomId":{"name":"rm_g2","path":"rooms/rm_g2/rm_g2.yy",},},
+    {"roomId":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

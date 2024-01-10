@@ -18,6 +18,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Crazy Levels","order":8,"path":"folders/Rooms/Crazy Levels.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_laser_warn","order":24,"path":"sprites/spr_laser_warn/spr_laser_warn.yy",},
