@@ -19,6 +19,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Crazy Levels","folderPath":"folders/Rooms/Crazy Levels.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Gavin Levels","folderPath":"folders/Rooms/Gavin Levels.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Good Levels","folderPath":"folders/Rooms/Good Levels.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Rooms/Tutorial.yy",},
@@ -29,13 +30,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Crazy Levels","folderPath":"folders/Rooms/Crazy Levels.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_laser_warn","path":"sprites/spr_laser_warn/spr_laser_warn.yy",},},
