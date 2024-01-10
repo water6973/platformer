@@ -1,4 +1,4 @@
-if (global.camfollow != noone){
+ if (global.camfollow != noone){
 	xto=global.camfollow.x;
 	yto=global.camy;
 }

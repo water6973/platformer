@@ -1,4 +1,3 @@
-
 movespd=2;
 yspd=0;
 xspd=0;
