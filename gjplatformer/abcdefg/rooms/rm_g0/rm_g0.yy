@@ -26,6 +26,7 @@
     {"name":"inst_5B99C89F","path":"rooms/rm_g0/rm_g0.yy",},
     {"name":"inst_7064FFF0","path":"rooms/rm_g0/rm_g0.yy",},
     {"name":"inst_3CE044","path":"rooms/rm_g0/rm_g0.yy",},
+    {"name":"inst_5D625897","path":"rooms/rm_g0/rm_g0.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -65,6 +66,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_screentransition","path":"objects/obj_screentransition/obj_screentransition.yy",},"propertyId":{"name":"nroom","path":"objects/obj_screentransition/obj_screentransition.yy",},"value":"rm_test",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_screentransition","path":"objects/obj_screentransition/obj_screentransition.yy",},"propertyId":{"name":"ncheck","path":"objects/obj_screentransition/obj_screentransition.yy",},"value":"0",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":5.3333335,"x":-24.0,"y":88.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D625897","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_bg","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Background_tiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[

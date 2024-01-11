@@ -1,6 +1,6 @@
 
-camw=480;
-camh=270;
+camw=360;
+camh=200;
 xto=x;
 yto=y;
 global.camy=global.camfollow.y;
