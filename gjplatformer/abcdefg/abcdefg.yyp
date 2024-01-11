@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_laser_warn","path":"sprites/spr_laser_warn/spr_laser_warn.yy",},},
@@ -59,6 +59,7 @@
     {"id":{"name":"obj_screentransition","path":"objects/obj_screentransition/obj_screentransition.yy",},},
     {"id":{"name":"spr_flag","path":"sprites/spr_flag/spr_flag.yy",},},
     {"id":{"name":"rm_g2","path":"rooms/rm_g2/rm_g2.yy",},},
+    {"id":{"name":"spr_player_run_right","path":"sprites/spr_player_run_right/spr_player_run_right.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"rm_g0","path":"rooms/rm_g0/rm_g0.yy",},},
     {"id":{"name":"spr_invispath","path":"sprites/spr_invispath/spr_invispath.yy",},},

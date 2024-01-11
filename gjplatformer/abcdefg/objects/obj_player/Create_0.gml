@@ -7,3 +7,4 @@ grav=0.35;
 state="idle"
 
 jumping=0;
+jumpboost=1;

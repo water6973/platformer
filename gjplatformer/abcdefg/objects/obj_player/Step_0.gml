@@ -23,19 +23,25 @@ global.controls[5]=vk_down;
 if(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
 	if(xspd<=0.1){xspd=0}
 }
-xspd-=sign(xspd);
-xspd+=(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
+xspd-=0.5*sign(xspd);
+xspd+=jumpboost*0.5*(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
 
 yspd+=grav;
+if(jumpboost==1){
 if(xspd>=movespd){xspd=movespd}
 if(xspd<=-movespd){xspd=-movespd}
+}
 
 if (!keyboard_check(global.controls[1])){jumpspd=0}
 
 if (keyboard_check_pressed(global.controls[1]) && instance_place(x,y+1,obj_platforms))
 {
 jumpspd=-5;
-};
+jumpboost=2;
+}
+else{
+jumpboost=1;	
+}
 if (keyboard_check(global.controls[1])&&jumpspd<0) {
 jumpspd+=-((jumpspd-0.3)/30)+0.15;
 yspd=jumpspd;
