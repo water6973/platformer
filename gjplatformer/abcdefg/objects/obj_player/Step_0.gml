@@ -20,9 +20,11 @@ global.controls[5]=vk_down;
 #endregion
 
 #region movement
-
-xspd=(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
+xspd-=sign(xspd);
+xspd+=(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
 yspd+=grav;
+if(xspd>=movespd){xspd=movespd}
+if(xspd<=-movespd){xspd=-movespd}
 
 if (!keyboard_check(global.controls[1])){jumpspd=0}
 
@@ -37,10 +39,10 @@ yspd=jumpspd;
 
 if (instance_place(x+xspd,y,obj_platforms))
 {
-	var pxcheck=sign(xspd)
-	while (!instance_place(x+pxcheck,y,obj_platforms))
+	var _pxcheck=sign(xspd)
+	while (!instance_place(x+_pxcheck,y,obj_platforms))
 	{
-	x+=pxcheck;
+	x+=_pxcheck;
 	}
 	
 	xspd=0
@@ -48,10 +50,10 @@ if (instance_place(x+xspd,y,obj_platforms))
 
 if (instance_place(x+xspd,y+yspd,obj_platforms))
 {
-	var pxcheck=sign(yspd)
-	while (!instance_place(x+xspd,y+pxcheck,obj_platforms))
+	var _pxcheck=sign(yspd)
+	while (!instance_place(x+xspd,y+_pxcheck,obj_platforms))
 	{
-	y+=pxcheck;	
+	y+=_pxcheck;	
 	}	
 	yspd=0;
 }
@@ -65,3 +67,60 @@ if keyboard_check_pressed(ord("R")){
 obj_player.x=global.checkpt[0];
 obj_player.y=global.checkpt[1];
 }
+
+#region state machine
+//checking
+if(keyboard_check(vk_nokey)
+	|| (keyboard_check(global.controls[2]) && keyboard_check(global.controls[3])) 
+	|| (yspd>=0) ){
+state="idle";
+}else if(keyboard_check(global.controls[1])){
+	if(
+	(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3]))
+	||(keyboard_check(global.controls[2]) && keyboard_check(global.controls[3])) ){
+		state="jumpup";	
+	}else if(keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
+		state="jumpright";	
+	}
+	else if(!keyboard_check(global.controls[2]) && keyboard_check(global.controls[3])){
+		state="jumpleft";	
+	}
+}else if(keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
+		state="runright";
+}
+else if(keyboard_check(global.controls[3]) && !keyboard_check(global.controls[2])){
+	state="runleft";
+}
+else{
+state="idle";	
+}
+
+//doing
+if(state=="idle"){
+	sprite_index=spr_player_idle;
+}
+else if(state=="jumpup"){
+	if(sprite_index!=spr_player_jump){image_index=0}
+	sprite_index=spr_player_jump;
+	if(image_index>=5){image_index=5}
+}
+else if(state=="jumpright"){
+	if(sprite_index!=spr_player_jump){image_index=0}
+	sprite_index=spr_player_jump;
+	if(image_index>=5){image_index=5}
+}
+else if(state=="jumpleft"){
+	if(sprite_index!=spr_player_jump){image_index=0}
+	sprite_index=spr_player_jump;
+	if(image_index>=5){image_index=5}
+}
+else if(state=="runright"){
+	sprite_index=spr_player_idle;
+}
+else if(state=="runleft"){
+	sprite_index=spr_player_idle;
+}
+else{
+	sprite_index=spr_player_idle;
+}
+#endregion
