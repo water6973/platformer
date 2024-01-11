@@ -20,8 +20,12 @@ global.controls[5]=vk_down;
 #endregion
 
 #region movement
+if(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
+	if(xspd<=0.1){xspd=0}
+}
 xspd-=sign(xspd);
 xspd+=(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
+
 yspd+=grav;
 if(xspd>=movespd){xspd=movespd}
 if(xspd<=-movespd){xspd=-movespd}
