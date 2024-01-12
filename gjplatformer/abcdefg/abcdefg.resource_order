@@ -32,6 +32,7 @@
     {"name":"rm_template","order":1,"path":"rooms/rm_template/rm_template.yy",},
     {"name":"spr_player_fall_right","order":6,"path":"sprites/spr_player_fall_right/spr_player_fall_right.yy",},
     {"name":"spr_turret","order":28,"path":"sprites/spr_turret/spr_turret.yy",},
+    {"name":"spr_player_jump_left","order":9,"path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},
     {"name":"spr_cameraheightchange","order":1,"path":"sprites/spr_cameraheightchange/spr_cameraheightchange.yy",},
     {"name":"spr_platform","order":7,"path":"sprites/spr_platform/spr_platform.yy",},
     {"name":"rm_tutorial_1","order":1,"path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},

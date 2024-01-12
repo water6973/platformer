@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_player_fall_down",
   "bbox_bottom": 15,
-  "bbox_left": 4,
-  "bbox_right": 11,
-  "bbox_top": 4,
+  "bbox_left": 3,
+  "bbox_right": 12,
+  "bbox_top": 3,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,8 +14,8 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"19c85bb1-502b-4d5b-b291-d85b7c5e1c03",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1e4cdf2b-006f-4367-ba25-65c39eba1d0b",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6de5d42-5bb1-4761-9923-6eb5cacfd98c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"742c7282-856f-46a4-bb4e-9b0e8dc78089",},
   ],
   "gridX": 8,
   "gridY": 8,
@@ -57,8 +57,8 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"19c85bb1-502b-4d5b-b291-d85b7c5e1c03","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},},"Disabled":false,"id":"a5fc5b0a-f909-452a-b1dc-96761e67e23a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1e4cdf2b-006f-4367-ba25-65c39eba1d0b","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},},"Disabled":false,"id":"30c876bd-740d-4ad3-9902-fefd0258a26a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f6de5d42-5bb1-4761-9923-6eb5cacfd98c","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},},"Disabled":false,"id":"507dd313-46c3-4739-ba7d-0e0d21199088","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f6de5d42-5bb1-4761-9923-6eb5cacfd98c","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},},"Disabled":false,"id":"507dd313-46c3-4739-ba7d-0e0d21199088","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"742c7282-856f-46a4-bb4e-9b0e8dc78089","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},},"Disabled":false,"id":"eeb75e75-59bd-49bc-9c12-00a763a1da88","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

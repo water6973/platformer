@@ -147,15 +147,15 @@ else if(state=="jumpup"){
 	if(image_index>=5){image_index=5}
 }
 else if(state=="jumpright"){
-	if(sprite_index!=spr_player_jump){image_index=0}
+	if(sprite_index!=spr_player_jump_right){image_index=0}
 	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
-	sprite_index=spr_player_jump;
+	sprite_index=spr_player_jump_right;
 	if(image_index>=5){image_index=5}
 }
 else if(state=="jumpleft"){
-	if(sprite_index!=spr_player_jump){image_index=0}
+	if(sprite_index!=spr_player_jump_left){image_index=0}
 	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
-	sprite_index=spr_player_jump;
+	sprite_index=spr_player_jump_left;
 	if(image_index>=5){image_index=5}
 }
 else if(state=="runright"){

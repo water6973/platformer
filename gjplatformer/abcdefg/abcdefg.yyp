@@ -50,6 +50,7 @@
     {"id":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"id":{"name":"spr_player_fall_right","path":"sprites/spr_player_fall_right/spr_player_fall_right.yy",},},
     {"id":{"name":"spr_turret","path":"sprites/spr_turret/spr_turret.yy",},},
+    {"id":{"name":"spr_player_jump_left","path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},},
     {"id":{"name":"spr_cameraheightchange","path":"sprites/spr_cameraheightchange/spr_cameraheightchange.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
