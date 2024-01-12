@@ -27,13 +27,19 @@ xspd-=0.5*sign(xspd);
 xspd+=jumpboost*0.5*(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
 
 if(keyboard_check(global.controls[5])){
-xspd+=0.1*sign(xspd)	
+xspd+=0.5*sign(xspd)	;
 }
 
 yspd+=grav;
 if(jumpboost==1){
-if(xspd>=movespd){xspd=movespd}
-if(xspd<=-movespd){xspd=-movespd}
+	if(keyboard_check(global.controls[5])){
+	if(xspd>=movespd+1){xspd=movespd+1}
+		if(xspd<=-movespd-1){xspd=-movespd-1}
+	}
+	else{
+		if(xspd>=movespd){xspd=movespd}
+		if(xspd<=-movespd){xspd=-movespd}
+	}
 }
 
 if (!keyboard_check(global.controls[1])){jumpspd=0}
