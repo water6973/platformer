@@ -26,6 +26,10 @@ if(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
 xspd-=0.5*sign(xspd);
 xspd+=jumpboost*0.5*(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
 
+if(keyboard_check(global.controls[5])){
+xspd+=0.1*sign(xspd)	
+}
+
 yspd+=grav;
 if(jumpboost==1){
 if(xspd>=movespd){xspd=movespd}
@@ -80,9 +84,26 @@ obj_player.y=global.checkpt[1];
 
 #region state machine
 //checking
-if(keyboard_check(vk_nokey)
-	|| (keyboard_check(global.controls[2]) && keyboard_check(global.controls[3])) 
-	|| (yspd>=0) ){
+if((yspd>0.1)){
+	if(	
+	keyboard_check(vk_nokey) 	
+	||   ((keyboard_check(global.controls[4]) || keyboard_check(global.controls[1]) ) 
+	&& (!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3]) )
+	) ){
+		state="falldown";
+	}
+	else if(keyboard_check(global.controls[2])&& !keyboard_check(global.controls[3])){
+		state="fallright";
+	}
+	else if(keyboard_check(global.controls[3])&& !keyboard_check(global.controls[2])){
+		state="fallleft";
+	}
+	else{
+	state="falldown";	
+	}
+}
+else if(keyboard_check(vk_nokey)
+	|| (keyboard_check(global.controls[2]) && keyboard_check(global.controls[3])) ){
 state="idle";
 }else if(keyboard_check(global.controls[1])){
 	if(
@@ -96,13 +117,23 @@ state="idle";
 		state="jumpleft";	
 	}
 }else if(keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
+	if(keyboard_check(global.controls[5])){
+	state="slideright"	
+	}
+	 else{
 		state="runright";
+	}
 }
 else if(keyboard_check(global.controls[3]) && !keyboard_check(global.controls[2])){
+if(keyboard_check(global.controls[5])){
+	state="slideleft"	
+	}
+	else{
 	state="runleft";
+	}
 }
 else{
-state="idle";	
+state="bidk";	
 }
 
 //doing
@@ -111,16 +142,19 @@ if(state=="idle"){
 }
 else if(state=="jumpup"){
 	if(sprite_index!=spr_player_jump){image_index=0}
+	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
 	sprite_index=spr_player_jump;
 	if(image_index>=5){image_index=5}
 }
 else if(state=="jumpright"){
 	if(sprite_index!=spr_player_jump){image_index=0}
+	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
 	sprite_index=spr_player_jump;
 	if(image_index>=5){image_index=5}
 }
 else if(state=="jumpleft"){
 	if(sprite_index!=spr_player_jump){image_index=0}
+	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
 	sprite_index=spr_player_jump;
 	if(image_index>=5){image_index=5}
 }
@@ -129,6 +163,31 @@ else if(state=="runright"){
 }
 else if(state=="runleft"){
 	sprite_index=spr_player_idle;
+}
+else if(state=="slideright"){
+	if(sprite_index!=spr_player_slide_right){image_index=0}
+	sprite_index=spr_player_slide_right;
+	if(image_index>=3){image_index=3}
+}
+else if(state=="slideleft"){
+	if(sprite_index!=spr_player_slide_left){image_index=0}
+	sprite_index=spr_player_slide_left;
+	if(image_index>=3){image_index=3}
+}
+else if(state=="falldown"){
+	if(sprite_index!=spr_player_fall_down){image_index=0}
+	sprite_index=spr_player_fall_down;
+	if(image_index>=1){image_index=1}
+}
+else if(state=="fallright"){
+	if(sprite_index!=spr_player_fall_right){image_index=0}
+	sprite_index=spr_player_fall_right;
+	if(image_index>=1){image_index=1}
+}
+else if(state=="fallleft"){
+	if(sprite_index!=spr_player_fall_left){image_index=0}
+	sprite_index=spr_player_fall_left;
+	if(image_index>=1){image_index=1}
 }
 else{
 	sprite_index=spr_player_idle;
