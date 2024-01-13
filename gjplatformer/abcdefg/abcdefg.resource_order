@@ -23,11 +23,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_laser_warn","order":24,"path":"sprites/spr_laser_warn/spr_laser_warn.yy",},
+    {"name":"spr_portal","order":30,"path":"sprites/spr_portal/spr_portal.yy",},
     {"name":"spr_laser","order":25,"path":"sprites/spr_laser/spr_laser.yy",},
     {"name":"spr_camera","order":11,"path":"sprites/spr_camera/spr_camera.yy",},
     {"name":"rm_g1","order":1,"path":"rooms/rm_g1/rm_g1.yy",},
     {"name":"obj_laser_warn","order":14,"path":"objects/obj_laser_warn/obj_laser_warn.yy",},
     {"name":"spr_bullet","order":27,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"spr_generator","order":31,"path":"sprites/spr_generator/spr_generator.yy",},
     {"name":"spr_init","order":5,"path":"sprites/spr_init/spr_init.yy",},
     {"name":"rm_template","order":1,"path":"rooms/rm_template/rm_template.yy",},
     {"name":"spr_player_fall_right","order":6,"path":"sprites/spr_player_fall_right/spr_player_fall_right.yy",},
