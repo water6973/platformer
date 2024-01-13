@@ -14,6 +14,8 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9ad6229-aa2d-43f6-90b3-9fc6e83a5e3b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab877e66-1153-4c08-bdf4-2bf89cd9d696",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c8423d4-28cc-4446-96d6-19604b5f0e2f",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,6 +57,8 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f9ad6229-aa2d-43f6-90b3-9fc6e83a5e3b","path":"sprites/spr_laser/spr_laser.yy",},},},"Disabled":false,"id":"593dd391-0ae9-4097-9a0b-25b5ada08770","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab877e66-1153-4c08-bdf4-2bf89cd9d696","path":"sprites/spr_laser/spr_laser.yy",},},},"Disabled":false,"id":"bd0e0204-221d-4e7f-b543-c841d2917dd5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0c8423d4-28cc-4446-96d6-19604b5f0e2f","path":"sprites/spr_laser/spr_laser.yy",},},},"Disabled":false,"id":"74f26ca5-5455-4ac2-a066-244a048dfe14","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
