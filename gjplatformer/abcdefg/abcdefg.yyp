@@ -84,6 +84,7 @@
     {"id":{"name":"spr_platforms","path":"sprites/spr_platforms/spr_platforms.yy",},},
     {"id":{"name":"spr_player_fall_down","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
+    {"id":{"name":"spr_player_hold_right","path":"sprites/spr_player_hold_right/spr_player_hold_right.yy",},},
     {"id":{"name":"spr_screentransition","path":"sprites/spr_screentransition/spr_screentransition.yy",},},
     {"id":{"name":"spr_player_slide_left","path":"sprites/spr_player_slide_left/spr_player_slide_left.yy",},},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
@@ -99,6 +100,7 @@
     {"id":{"name":"spr_bg_processes","path":"sprites/spr_bg_processes/spr_bg_processes.yy",},},
     {"id":{"name":"obj_laser_turret","path":"objects/obj_laser_turret/obj_laser_turret.yy",},},
     {"id":{"name":"spr_deathpit","path":"sprites/spr_deathpit/spr_deathpit.yy",},},
+    {"id":{"name":"spr_player_hold_left","path":"sprites/spr_player_hold_left/spr_player_hold_left.yy",},},
     {"id":{"name":"obj_deathpit","path":"objects/obj_deathpit/obj_deathpit.yy",},},
   ],
   "RoomOrderNodes": [

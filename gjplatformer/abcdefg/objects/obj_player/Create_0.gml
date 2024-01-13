@@ -8,3 +8,5 @@ state="idle"
 
 jumping=0;
 jumpboost=1;
+
+hold=0;
