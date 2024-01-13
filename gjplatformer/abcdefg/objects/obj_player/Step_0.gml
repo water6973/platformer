@@ -1,4 +1,4 @@
-	#region control settings
+#region control settings
 
 /*
 0=interact
@@ -83,13 +83,9 @@ y+=yspd;
 
 #endregion
 
-if keyboard_check_pressed(ord("R")){
-obj_player.x=global.checkpt[0];
-obj_player.y=global.checkpt[1];
-}
-
 #region state machine
-//checking
+
+#region checking
 if((yspd>0.1)){
 	if(	
 	keyboard_check(vk_nokey) 	
@@ -141,8 +137,9 @@ if(keyboard_check(global.controls[5])){
 else{
 state="bidk";	
 }
+#endregion
 
-//doing
+#region set sprites
 if(state=="idle"){
 	sprite_index=spr_player_idle;
 }
@@ -197,5 +194,14 @@ else if(state=="fallleft"){
 }
 else{
 	sprite_index=spr_player_idle;
+}
+#endregion
+
+#endregion
+
+#region debug
+if keyboard_check_pressed(ord("R")){
+obj_player.x=global.checkpt[0];
+obj_player.y=global.checkpt[1];
 }
 #endregion
