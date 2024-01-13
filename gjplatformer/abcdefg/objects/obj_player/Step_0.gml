@@ -23,10 +23,11 @@ global.controls[5]=vk_down;
 if(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
 	if(xspd<=0.1){xspd=0}
 }
-xspd-=0.5*sign(xspd);
-xspd+=jumpboost*0.5*(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
+xspd-=switcht*sign(xspd);
+xspd+=jumpboost*switcht*(keyboard_check(global.controls[2])-keyboard_check(global.controls[3]))*movespd;
 
 if(keyboard_check(global.controls[5])){
+	xspd-=0.5*switcht*sign(xspd);
 xspd+=0.5*sign(xspd)	;
 }
 
@@ -58,12 +59,34 @@ hold=0;
 
 if (keyboard_check_pressed(global.controls[1]) && instance_place(x,y+1,obj_platforms))
 {
-jumpspd=-5;
+if(keyboard_check(global.controls[5])){
+jumpspd=-3.5;
+jumpboost=4;
+}
+else{
+jumpspd=-4.5;
 jumpboost=2;
+}
 }
 else{
 jumpboost=1;	
 }
+
+if(hold!=0){
+	if(hold==-1){
+		if(keyboard_check_pressed(global.controls[1])){
+			jumpspd=-5;
+			xspd=5;
+		}
+	}
+	else if(hold==1){
+		if(keyboard_check_pressed(global.controls[1])){
+			jumpspd=-5;
+			xspd=-5;
+		}
+	}
+}
+
 if (keyboard_check(global.controls[1])&&jumpspd<0) {
 jumpspd+=-((jumpspd-0.3)/30)+0.15;
 yspd=jumpspd;
@@ -88,6 +111,11 @@ if (instance_place(x+xspd,y+yspd,obj_platforms))
 	y+=_pxcheck;	
 	}	
 	yspd=0;
+}
+
+if(instance_place(x,y-1,obj_platforms)){
+	yspd=0.1;
+	jumpspd=0.1;
 }
 
 x+=xspd;
@@ -178,12 +206,20 @@ else if(state=="jumpright"){
 	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
 	sprite_index=spr_player_jump_right;
 	if(image_index>=5){image_index=5}
+	if(instance_place(x,y+1,obj_platforms)){
+		state="runright"
+		sprite_index=spr_player_idle;
+	}
 }
 else if(state=="jumpleft"){
 	if(sprite_index!=spr_player_jump_left){image_index=0}
 	if(keyboard_check(global.controls[1])&& instance_place(x,y-1,obj_platforms)){image_index=5}
 	sprite_index=spr_player_jump_left;
 	if(image_index>=5){image_index=5}
+	if(instance_place(x,y+1,obj_platforms)){
+		state="runleft";
+		sprite_index=spr_player_idle;
+		}
 }
 else if(state=="runright"){
 	sprite_index=spr_player_idle;
