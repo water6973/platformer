@@ -33,8 +33,8 @@ xspd+=0.5*sign(xspd)	;
 yspd+=grav;
 if(jumpboost==1){
 	if(keyboard_check(global.controls[5])){
-	if(xspd>=movespd+1){xspd=movespd+1}
-		if(xspd<=-movespd-1){xspd=-movespd-1}
+	if(xspd>=movespd+0.5){xspd=movespd+0.5}
+		if(xspd<=-movespd-0.5){xspd=-movespd-0.5}
 	}
 	else{
 		if(xspd>=movespd){xspd=movespd}
@@ -43,6 +43,18 @@ if(jumpboost==1){
 }
 
 if (!keyboard_check(global.controls[1])){jumpspd=0}
+
+if(yspd>=-2&&keyboard_check(global.controls[2]) && instance_place(x+1,y,obj_platforms) && !instance_place(x,y+1,obj_platforms)){
+hold=1;
+yspd=1
+}
+else if(yspd>=-2&&keyboard_check(global.controls[3]) && instance_place(x-1,y,obj_platforms) && !instance_place(x,y+1,obj_platforms)){
+hold=-1;
+yspd=1
+}
+else{
+hold=0;	
+}
 
 if (keyboard_check_pressed(global.controls[1]) && instance_place(x,y+1,obj_platforms))
 {
@@ -86,7 +98,19 @@ y+=yspd;
 #region state machine
 
 #region checking
-if((yspd>0.1)){
+
+if(hold!=0){
+	if(hold==1){
+	state="holdright";	
+	}
+	else if(hold==-1){
+	state="holdleft";	
+	}
+	else{
+	state="idle";	
+	}
+}
+else if((yspd>0.1)){
 	if(	
 	keyboard_check(vk_nokey) 	
 	||   ((keyboard_check(global.controls[4]) || keyboard_check(global.controls[1]) ) 
@@ -166,6 +190,12 @@ else if(state=="runright"){
 }
 else if(state=="runleft"){
 	sprite_index=spr_player_idle;
+}
+else if(state=="holdright"){
+	sprite_index=spr_player_hold_right;
+}
+else if(state=="holdleft"){
+	sprite_index=spr_player_hold_left;
 }
 else if(state=="slideright"){
 	if(sprite_index!=spr_player_slide_right){image_index=0}
