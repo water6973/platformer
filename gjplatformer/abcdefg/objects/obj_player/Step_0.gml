@@ -232,7 +232,7 @@ else if(state=="jumpleft"){
 		}
 }
 else if(state=="runright"){
-	sprite_index=spr_player_idle;
+	sprite_index=spr_player_run_right;
 }
 else if(state=="runleft"){
 	sprite_index=spr_player_idle;
