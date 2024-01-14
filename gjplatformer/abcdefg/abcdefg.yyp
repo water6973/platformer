@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"spr_laser_warn","path":"sprites/spr_laser_warn/spr_laser_warn.yy",},},
@@ -85,6 +85,7 @@
     {"id":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
     {"id":{"name":"tile_platforms","path":"tilesets/tile_platforms/tile_platforms.yy",},},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
+    {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},},
     {"id":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"spr_platforms","path":"sprites/spr_platforms/spr_platforms.yy",},},
