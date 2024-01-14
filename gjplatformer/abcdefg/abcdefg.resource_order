@@ -58,6 +58,7 @@
     {"name":"Sound3","order":2,"path":"sounds/Sound3/Sound3.yy",},
     {"name":"obj_laser","order":15,"path":"objects/obj_laser/obj_laser.yy",},
     {"name":"rm_level2","order":1,"path":"rooms/rm_level2/rm_level2.yy",},
+    {"name":"obj_portal","order":20,"path":"objects/obj_portal/obj_portal.yy",},
     {"name":"rm_test","order":2,"path":"rooms/rm_test/rm_test.yy",},
     {"name":"spr_platforms","order":21,"path":"sprites/spr_platforms/spr_platforms.yy",},
     {"name":"spr_player_fall_down","order":7,"path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},
