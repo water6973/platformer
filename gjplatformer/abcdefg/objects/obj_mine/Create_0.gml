@@ -1,4 +1,3 @@
-timer = 100;
-isExploding = false;
+timer = 32;
 image_speed = 0;
-image_index = 0;
+isExploding=false;

@@ -4,9 +4,7 @@ if (instance_place(x,y,obj_player)){
 	global.deaths+=1;
 }
 
-timer -= 1;
-
-if (timer < 0){
+if (image_index==9){
 	instance_destroy();
 }
 

@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1bcff131-3994-42eb-ae91-94c728f666a3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20a3a554-ef2a-4b31-ab06-5039809caddb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9509469f-4d3d-4013-9a58-3c68a73f0594",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -71,7 +71,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -79,7 +79,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1bcff131-3994-42eb-ae91-94c728f666a3","path":"sprites/spr_mine/spr_mine.yy",},},},"Disabled":false,"id":"69e02ee8-5321-400c-8df7-2215e24230d9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20a3a554-ef2a-4b31-ab06-5039809caddb","path":"sprites/spr_mine/spr_mine.yy",},},},"Disabled":false,"id":"f4ab3b4f-14a2-4527-a5ef-e3b9a600174d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9509469f-4d3d-4013-9a58-3c68a73f0594","path":"sprites/spr_mine/spr_mine.yy",},},},"Disabled":false,"id":"19910e06-53b2-4881-a073-2fe37f4396b5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

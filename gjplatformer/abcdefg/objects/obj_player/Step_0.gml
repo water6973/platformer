@@ -47,11 +47,21 @@ if (!keyboard_check(global.controls[1])){jumpspd=0}
 
 if(yspd>=-2&&keyboard_check(global.controls[2]) && instance_place(x+1,y,obj_platforms) && !instance_place(x,y+1,obj_platforms)){
 hold=1;
-yspd=1
+if(keyboard_check(global.controls[5])){
+	yspd=2;
+}
+else{
+yspd=1	
+}
 }
 else if(yspd>=-2&&keyboard_check(global.controls[3]) && instance_place(x-1,y,obj_platforms) && !instance_place(x,y+1,obj_platforms)){
 hold=-1;
-yspd=1
+if(keyboard_check(global.controls[5])){
+	yspd=2;
+}
+else{
+yspd=1;
+}
 }
 else{
 hold=0;	

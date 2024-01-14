@@ -1,20 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-timer-=1;
-
-if(firing == 0){
-	var _gg = instance_create_layer(x,y,"Instances",obj_laser_warn);
-	_gg.direction=direction;
-	_gg.tt=id;
-}
-else{
-	instance_create_layer(x,y,"Instances",obj_laser).direction=direction;
-}
-
-if(timer<=48 && timer>=0){
-firing=1;	
-}
-else{
-firing=0;	
-}
+if (_type == 0){
+	image_index = 0; // PORTAL
+} else if (_type == 1){
+	image_index = 1; // flickering laser
+} else {
+	image_index = 2; // constant laser
+} 
