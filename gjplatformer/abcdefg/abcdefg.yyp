@@ -50,6 +50,7 @@
     {"id":{"name":"obj_laser_warn","path":"objects/obj_laser_warn/obj_laser_warn.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_generator","path":"sprites/spr_generator/spr_generator.yy",},},
+    {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},},
     {"id":{"name":"obj_generator","path":"objects/obj_generator/obj_generator.yy",},},
     {"id":{"name":"spr_init","path":"sprites/spr_init/spr_init.yy",},},
     {"id":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
