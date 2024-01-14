@@ -1,5 +1,7 @@
 timer-=1;
 
+image_angle=direction;
+
 if(firing == 0){
 	var _gg = instance_create_layer(x,y,"Instances",obj_laser_warn);
 	_gg.direction=direction;
