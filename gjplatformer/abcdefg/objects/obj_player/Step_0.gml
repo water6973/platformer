@@ -9,6 +9,12 @@
 5=down
 */
 
+if (room == rm_movie){ 
+	video_set_volume(1);
+} else {
+	video_set_volume(0);
+}
+
 global.controls=[];
 global.controls[0]=ord("Z");
 global.controls[1]=ord("X");

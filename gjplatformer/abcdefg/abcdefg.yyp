@@ -33,11 +33,13 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sully.mp4","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"spr_laser_warn","path":"sprites/spr_laser_warn/spr_laser_warn.yy",},},
@@ -91,6 +93,7 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"spr_platforms","path":"sprites/spr_platforms/spr_platforms.yy",},},
     {"id":{"name":"spr_player_fall_down","path":"sprites/spr_player_fall_down/spr_player_fall_down.yy",},},
+    {"id":{"name":"obj_playback","path":"objects/obj_playback/obj_playback.yy",},},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
     {"id":{"name":"spr_comp0","path":"sprites/spr_comp0/spr_comp0.yy",},},
     {"id":{"name":"spr_player_hold_right","path":"sprites/spr_player_hold_right/spr_player_hold_right.yy",},},
@@ -108,6 +111,7 @@
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_laser_turret","path":"sprites/spr_laser_turret/spr_laser_turret.yy",},},
+    {"id":{"name":"rm_movie","path":"rooms/rm_movie/rm_movie.yy",},},
     {"id":{"name":"spr_bg_processes","path":"sprites/spr_bg_processes/spr_bg_processes.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
     {"id":{"name":"obj_laser_turret","path":"objects/obj_laser_turret/obj_laser_turret.yy",},},
@@ -130,6 +134,7 @@
     {"roomId":{"name":"rm_g2","path":"rooms/rm_g2/rm_g2.yy",},},
     {"roomId":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
     {"roomId":{"name":"rm_template11","path":"rooms/rm_template11/rm_template11.yy",},},
+    {"roomId":{"name":"rm_movie","path":"rooms/rm_movie/rm_movie.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
