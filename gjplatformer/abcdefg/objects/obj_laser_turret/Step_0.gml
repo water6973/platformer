@@ -8,7 +8,7 @@ if(firing == 0){
 	_gg.tt=id;
 }
 else{
-	instance_create_layer(x,y,"Instances",obj_laser).direction=direction;
+	_laser = instance_create_layer(x,y,"Instances",obj_laser);
 }
 
 if(timer<=48 && timer>=0){
