@@ -1,4 +1,4 @@
-movespd=2.25;
+movespd=1.5;
 yspd=0;
 xspd=0;
 jumpspd=-5;
