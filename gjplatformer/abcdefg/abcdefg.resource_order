@@ -81,7 +81,6 @@
     {"name":"rm_movie","order":9,"path":"rooms/rm_movie/rm_movie.yy",},
     {"name":"spr_bg_processes","order":10,"path":"sprites/spr_bg_processes/spr_bg_processes.yy",},
     {"name":"obj_laser_turret","order":13,"path":"objects/obj_laser_turret/obj_laser_turret.yy",},
-    {"name":"rm_template11","order":2,"path":"rooms/rm_template11/rm_template11.yy",},
     {"name":"spr_popspike","order":32,"path":"sprites/spr_popspike/spr_popspike.yy",},
     {"name":"spr_comp2","order":2,"path":"sprites/spr_comp2/spr_comp2.yy",},
     {"name":"spr_deathpit","order":4,"path":"sprites/spr_deathpit/spr_deathpit.yy",},
