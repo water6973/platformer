@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"abcdefg",
   "resources":[
@@ -63,8 +63,8 @@
     {"id":{"name":"obj_prop_flag","path":"objects/obj_prop_flag/obj_prop_flag.yy",},},
     {"id":{"name":"obj_screentransition","path":"objects/obj_screentransition/obj_screentransition.yy",},},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
-    {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},},
     {"id":{"name":"obj_time_start","path":"objects/obj_time_start/obj_time_start.yy",},},
+    {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},},
     {"id":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
     {"id":{"name":"rm_g0","path":"rooms/rm_g0/rm_g0.yy",},},
     {"id":{"name":"rm_g1","path":"rooms/rm_g1/rm_g1.yy",},},
