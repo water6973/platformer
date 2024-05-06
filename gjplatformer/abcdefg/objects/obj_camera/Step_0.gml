@@ -3,9 +3,18 @@
 	yto=global.camy;
 }
 
+if(distance_to_object(obj_player)>128){
+cspd=8;	
+}
+else if(distance_to_object(obj_player)>64){
+cspd=16;	
+}
+else {
+cspd=24;	
+}
 
-x+=(xto-x)/24;
-y+=(yto-y)/24;
+x+=(xto-x)/cspd;
+y+=(yto-y)/cspd;
 
 #region cam borders
 if (x<=0+(0.5*camw)){x=0+(0.5*camw)}

@@ -1,4 +1,4 @@
-
+cspd=24;
 camw=360;
 camh=200;
 xto=x;
