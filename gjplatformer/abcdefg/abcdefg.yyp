@@ -40,6 +40,7 @@
   },
   "name":"abcdefg",
   "resources":[
+    {"id":{"name":"fnt_verdana","path":"fonts/fnt_verdana/fnt_verdana.yy",},},
     {"id":{"name":"obj_bad","path":"objects/obj_bad/obj_bad.yy",},},
     {"id":{"name":"obj_bgprocesses","path":"objects/obj_bgprocesses/obj_bgprocesses.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
@@ -110,6 +111,7 @@
     {"id":{"name":"spr_player_jump_left","path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},},
     {"id":{"name":"spr_player_jump_right","path":"sprites/spr_player_jump_right/spr_player_jump_right.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
+    {"id":{"name":"spr_player_run_left","path":"sprites/spr_player_run_left/spr_player_run_left.yy",},},
     {"id":{"name":"spr_player_run_right","path":"sprites/spr_player_run_right/spr_player_run_right.yy",},},
     {"id":{"name":"spr_player_slide_left","path":"sprites/spr_player_slide_left/spr_player_slide_left.yy",},},
     {"id":{"name":"spr_player_slide_right","path":"sprites/spr_player_slide_right/spr_player_slide_right.yy",},},

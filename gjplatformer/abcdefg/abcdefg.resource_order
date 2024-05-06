@@ -79,6 +79,7 @@
     {"name":"spr_player_jump_left","order":9,"path":"sprites/spr_player_jump_left/spr_player_jump_left.yy",},
     {"name":"spr_player_jump_right","order":5,"path":"sprites/spr_player_jump_right/spr_player_jump_right.yy",},
     {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"spr_player_run_left","order":12,"path":"sprites/spr_player_run_left/spr_player_run_left.yy",},
     {"name":"spr_player_run_right","order":2,"path":"sprites/spr_player_run_right/spr_player_run_right.yy",},
     {"name":"spr_player_slide_left","order":4,"path":"sprites/spr_player_slide_left/spr_player_slide_left.yy",},
     {"name":"spr_player_slide_right","order":3,"path":"sprites/spr_player_slide_right/spr_player_slide_right.yy",},
