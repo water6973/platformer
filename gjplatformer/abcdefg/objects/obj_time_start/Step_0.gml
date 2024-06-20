@@ -13,7 +13,8 @@ if(instance_place(x,y,obj_player)){
 	if(global.time<global.besttime){
 		global.besttime=global.time;	
 	}
-	global.time=0;
+	function f0() {global.time=0;}
+	call_later(10,time_source_units_frames,f0,0);
 	}
 global.time++;
 }
