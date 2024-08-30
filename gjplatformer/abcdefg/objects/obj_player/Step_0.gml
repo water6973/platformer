@@ -293,6 +293,6 @@ else{
 #region debug
 if keyboard_check_pressed(ord("R")){
 obj_player.x=global.checkpt[0];
-obj_player.y=global.checkpt[1];
+obj_player.y=global.checkpt[1]+(player)*sprite_height+1;
 }
 #endregion
