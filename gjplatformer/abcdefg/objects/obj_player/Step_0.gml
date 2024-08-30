@@ -19,6 +19,8 @@ global.controls[3]=vk_left;
 global.controls[4]=vk_numpad0;
 global.controls[5]=vk_down;
 
+if(instance_exists(obj_midplayers)){obj_midplayers.ids[0]=id;}
+
 }
 else{
 	
@@ -29,6 +31,8 @@ global.controls[2]=ord("D");
 global.controls[3]=ord("A");
 global.controls[4]=vk_numpad0;
 global.controls[5]=ord("S");
+
+if(instance_exists(obj_midplayers)){obj_midplayers.ids[1]=id;}
 	
 }
 
