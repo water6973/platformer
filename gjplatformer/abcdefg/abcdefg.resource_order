@@ -45,6 +45,7 @@
     {"name":"obj_spike","order":12,"path":"objects/obj_spike/obj_spike.yy",},
     {"name":"obj_time_start","order":23,"path":"objects/obj_time_start/obj_time_start.yy",},
     {"name":"obj_turret","order":17,"path":"objects/obj_turret/obj_turret.yy",},
+    {"name":"Object25","order":25,"path":"objects/Object25/Object25.yy",},
     {"name":"rm_fortnitesexdungeon2","order":10,"path":"rooms/rm_fortnitesexdungeon2/rm_fortnitesexdungeon2.yy",},
     {"name":"rm_g1","order":1,"path":"rooms/rm_g1/rm_g1.yy",},
     {"name":"rm_g2","order":2,"path":"rooms/rm_g2/rm_g2.yy",},
