@@ -29,6 +29,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Compositions","folderPath":"folders/Sprites/Compositions.yy","name":"Compositions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player","folderPath":"folders/Sprites/player.yy","name":"player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"reggie","folderPath":"folders/Sprites/reggie.yy","name":"reggie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -68,6 +69,7 @@
     {"id":{"name":"obj_time_start","path":"objects/obj_time_start/obj_time_start.yy",},},
     {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},},
     {"id":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
+    {"id":{"name":"rm_fortnitesexdungeon2","path":"rooms/rm_fortnitesexdungeon2/rm_fortnitesexdungeon2.yy",},},
     {"id":{"name":"rm_g0","path":"rooms/rm_g0/rm_g0.yy",},},
     {"id":{"name":"rm_g1","path":"rooms/rm_g1/rm_g1.yy",},},
     {"id":{"name":"rm_g2","path":"rooms/rm_g2/rm_g2.yy",},},
@@ -132,6 +134,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_fortnitesexdungeon2","path":"rooms/rm_fortnitesexdungeon2/rm_fortnitesexdungeon2.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"roomId":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
