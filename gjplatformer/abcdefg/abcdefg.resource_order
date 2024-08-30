@@ -52,6 +52,7 @@
     {"name":"rm_template","order":1,"path":"rooms/rm_template/rm_template.yy",},
     {"name":"rm_test","order":2,"path":"rooms/rm_test/rm_test.yy",},
     {"name":"rm_tutorial_1","order":1,"path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},
+    {"name":"shd_player_1","order":1,"path":"shaders/shd_player_1/shd_player_1.yy",},
     {"name":"Sound2","order":1,"path":"sounds/Sound2/Sound2.yy",},
     {"name":"Sound3","order":2,"path":"sounds/Sound3/Sound3.yy",},
     {"name":"Sound4","order":3,"path":"sounds/Sound4/Sound4.yy",},

@@ -9,13 +9,28 @@
 5=down
 */
 
+if(player==0){
+
 global.controls=[];
-global.controls[0]=ord("Z");
-global.controls[1]=ord("X");
+global.controls[0]=vk_numpad0;
+global.controls[1]=vk_up;
 global.controls[2]=vk_right;
 global.controls[3]=vk_left;
-global.controls[4]=vk_up;
+global.controls[4]=vk_numpad0;
 global.controls[5]=vk_down;
+
+}
+else{
+	
+global.controls=[];
+global.controls[0]=vk_numpad0;
+global.controls[1]=ord("W");
+global.controls[2]=ord("D");
+global.controls[3]=ord("A");
+global.controls[4]=vk_numpad0;
+global.controls[5]=ord("S");
+	
+}
 
 #endregion
 

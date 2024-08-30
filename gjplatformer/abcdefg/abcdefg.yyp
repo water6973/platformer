@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"abcdefg",
   "resources":[
@@ -78,6 +78,8 @@
     {"id":{"name":"rm_tutorial_0","path":"rooms/rm_tutorial_0/rm_tutorial_0.yy",},},
     {"id":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
+    {"id":{"name":"shd_player_0","path":"shaders/shd_player_0/shd_player_0.yy",},},
+    {"id":{"name":"shd_player_1","path":"shaders/shd_player_1/shd_player_1.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
     {"id":{"name":"Sound3","path":"sounds/Sound3/Sound3.yy",},},
