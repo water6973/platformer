@@ -68,6 +68,7 @@
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
     {"id":{"name":"obj_time_start","path":"objects/obj_time_start/obj_time_start.yy",},},
     {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},},
+    {"id":{"name":"Object25","path":"objects/Object25/Object25.yy",},},
     {"id":{"name":"rm_c0","path":"rooms/rm_c0/rm_c0.yy",},},
     {"id":{"name":"rm_fortnitesexdungeon2","path":"rooms/rm_fortnitesexdungeon2/rm_fortnitesexdungeon2.yy",},},
     {"id":{"name":"rm_g0","path":"rooms/rm_g0/rm_g0.yy",},},
