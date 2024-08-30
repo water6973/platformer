@@ -38,6 +38,12 @@ if(instance_exists(obj_midplayers)){obj_midplayers.ids[1]=id;}
 
 #endregion
 
+if (instance_place(x,y,obj_bad)){
+	x=global.checkpt[0];
+	y=global.checkpt[1];
+	global.deaths+=1;
+}
+
 #region movement
 if(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
 	if(xspd<=0.1){xspd=0}
