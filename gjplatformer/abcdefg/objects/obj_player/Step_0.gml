@@ -9,6 +9,13 @@
 5=down
 */
 
+if(global.players>1 && player==0 && start==0){
+	repeat(global.players-1){
+		instance_create_layer(x,y,"Instances",obj_player).player=1;
+	}
+	start=1;
+}
+
 if(player==0){
 
 global.controls=[];

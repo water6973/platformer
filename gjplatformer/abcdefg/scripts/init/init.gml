@@ -4,7 +4,7 @@ function init(){
 
 }
 
-function goto_room(rm,check){
+function goto_room(rm,check=0){
 	var _f0=method({check:check},function(){
 	obj_player.x=global.checkpt[3][check].cx;
 	obj_player.y=global.checkpt[3][check].cy;
@@ -13,3 +13,5 @@ function goto_room(rm,check){
 	room_goto(rm);
 	call_later(1,time_source_units_frames,_f0);
 }
+
+global.players=1;

@@ -35,5 +35,5 @@
     "path":"sprites/spr_prop_flag/spr_prop_flag.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
