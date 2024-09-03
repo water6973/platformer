@@ -6,7 +6,3 @@ image_angle=direction;
 if((instance_place(x,y,obj_platforms) || distance_to_object(obj_player)>800)){ // !!!
 	instance_destroy();
 }
-
-if(instance_place(x,y,obj_generator)){
-	image_alpha = 0;
-}

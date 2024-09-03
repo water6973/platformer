@@ -9,6 +9,10 @@
 5=down
 */
 
+if(keyboard_check(vk_f1)){
+game_restart();	
+}
+
 if(global.players>1 && player==0 && start==0){
 	repeat(global.players-1){
 		instance_create_layer(x,y,"Instances",obj_player).player=1;

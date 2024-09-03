@@ -9,6 +9,7 @@ if(firing == 0){
 }
 else{
 	_laser = instance_create_layer(x,y,"Instances",obj_laser);
+	_laser.direction=direction;
 }
 
 if(timer<=48 && timer>=0){
