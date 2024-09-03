@@ -39,8 +39,8 @@
   ],
   "name":"rm_movie",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Good Levels",
+    "path":"folders/Rooms/Good Levels.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

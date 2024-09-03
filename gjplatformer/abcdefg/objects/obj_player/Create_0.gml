@@ -11,3 +11,5 @@ jumping=0;
 jumpboost=1;
 
 hold=0;
+
+start=0;

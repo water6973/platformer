@@ -9,6 +9,13 @@
 5=down
 */
 
+if(global.players>1 && player==0 && start==0){
+	repeat(global.players-1){
+		instance_create_layer(x,y,"Instances",obj_player).player=1;
+	}
+	start=1;
+}
+
 if(player==0){
 
 global.controls=[];
@@ -37,6 +44,12 @@ if(instance_exists(obj_midplayers)){obj_midplayers.ids[1]=id;}
 }
 
 #endregion
+
+if (instance_place(x,y,obj_bad)){
+	x=global.checkpt[0];
+	y=global.checkpt[1];
+	global.deaths+=1;
+}
 
 #region movement
 if(!keyboard_check(global.controls[2]) && !keyboard_check(global.controls[3])){
